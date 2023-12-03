@@ -5,12 +5,14 @@ For this project, you should use this [_Bird Species dataset_](https://analytics
 <div style="text-align: center;">
 <img src="bird_species_thumbnail.png" alt="Bird species for fine-grained categorization" width=500/>
 </div>
+## Project 2 Notebook:
+You should use this [_Project_2_starter notebook_](https://github.com/alimoorreza/CS167-Project-2/blob/main/Project2_starter.ipynb). It contains the most crucial part, i.e., the code for three CNNs: AlexNet, VGGNet, and ResNet. For other machine learning functions, you can borrow them from previous notebooks, such as [Day24: CNN finetuning](https://github.com/alimoorreza/CS167-notes/blob/main/Day24_CNN_finetuning.ipynb).
 
 ## Learning Objectives: 📝
 For this project, you will be fine-tuning pretrained convolutional neural networks (CNNs) for fine-grained categorization of bird species. As a machine learning tool, you will use the PyTorch and scikit-learn libraries to conduct a machine learning experiment, and your write-up will require you to explain what you did and interpret the results. This directly addresses three of the course learning objectives stated in the syllabus:
 - Students will be able to create software that utilizes machine learning programming libraries for conducting machine-learning-based data analysis.
 - Students will be able to develop and conduct machine-learning-based data analysis experiments, and they will be able to interpret and explain the results.
-- Students will receive hands-on experience with commonly used algorithms (eg, CNNs such as AlexNet, VGGNet, ResNet, optimizers such SGD, ADAM) and software tools within machine learning.
+- Students will receive hands-on experience with commonly used algorithms (eg, CNNs such as AlexNet, VGGNet, ResNet, optimizers such SGD, ADAM) and software tools (PyTorch, sklearn) within machine learning.
 
 
 ## Project Expectations: ☑️
@@ -19,11 +21,12 @@ For this project, you will be fine-tuning pretrained convolutional neural networ
 You will create a Colab notebook that includes your code and results to document your experiment. Most importantly, you will use text cells in the notebook to explain what you did, interpret the results, and make your recommendations. The written markdown protions must include the following things:
 1. **Problem** [1 point]: State the problem you are trying to solve with this machine learning experiment. Include a description of the data, and what you're trying to predict. What are the possible uses for this kind of machine learning model?
 2. **Explore the Data** [5 points]: Find the values for the following metrics: 
-    - __Number of Samples__: total number of examples you have in the data 
-    - __Number of classes__: total number of topics or categories in the data
-    - __Number of words per sample__: Median number of words in one sample
-    - __Distribution of sample length__: Distribution showing the number of words per sample in the dataset (use the function `hist()` on a list that has the lenght of each row). 
-    - __Something Else__: Show me something else about the data--your choice.
+    - __Total number of samples__: total number of examples you have in the dataset
+    - __Total number of training samples__: total number of examples you have in the training split of the dataset
+    - __Total number of testing samples__: total number of examples you have in the testing split of the dataset
+    - __Number of classes__: total number of categories in the dataset
+    - __Dimension of each data sample__: Find the size of a sample image in the dataset (use the function `.shape`. Refer to the  [_Project_2_starter notebook which has sufficient hints_.](https://github.com/alimoorreza/CS167-Project-2/blob/main/Project2_starter.ipynb)).
+    
 3.  **Data Preparation** [1 point]: Explain your data preparation. What did you have to do to get your data in shape for your experiments - word embeddings, stop words, vectorization, tokeniztion, etc. 
 4.  **Metrics** [1 point]: What metrics will you use to evaluate your model? Why are these metrics the best for your model? (Hint, this should be more than 'accuracy').
 5.  **Model Planning and Execution** [1 point]: Identify which learning algorithms you will try and which important parameters you will tune for each one. 
@@ -31,14 +34,12 @@ You will create a Colab notebook that includes your code and results to document
 7.  **Results** [1 point]: After you conduct your learning experiment, summarize the results you got. Include visualizations as appropriate. 
 8.  **Conclusions**: What insights/recommendations do you have? What did you find that was interesting? Which model was your best model, which models didn't work well? Why do you think this is? In general, I want a discussion of your experiment, the results, and what they mean.
 
-### Your Experiments Should Demonstrate the following Machine Leanring Techniques:
-From Scikit-Learn:
-- **Support Vector Classifer**
-- **Principal Component Analysis**
-- **Perceptron**
-- **MLP**
+### Your Experiments Should Demonstrate the following well-established and effective convolutional neural networks (CNNs):
+- **AlexNet**
+- **VGGNet**
+- **ResNet**
 
-📉 📊 📈 💹 You also should include at least **4 visualizations (graphs)** of tuning parameters.
+📉 📊 📈 💹 You also should include at least **3 visualizations (graphs)** of tuning parameters.
 
 ## Extra Credit ✨
 As promised, you will have an opportunity to earn extra credit on this project. You will be able to earn up to 2 points of extra credit by using the IMDB database to build a **word-level** language model that is able to generate text (much like we did in [Day 23's Notes](https://github.com/merriekay/CS167Code/blob/main/Day23Notes_RNNs4NLP.ipynb). Build your model, train it, evaluate it, and then demonstrate that you are able to use it to generate new movie reviews. 
