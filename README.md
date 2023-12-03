@@ -17,7 +17,7 @@ For this project, you will be fine-tuning pretrained convolutional neural networ
 
 
 ## Project Expectations: ☑️
-**New**: At the very top of your notebook, I'm asking that in a text cell, you **describe how many points you attempted to get from this project**. Tell me what you think you deserve on this notebook given the rubric at the bottom of this page. 
+At the very top of your notebook, add a text cell, then describe how many points you attempted to earn from this project. Tell me what you think you deserve on this notebook given the rubric at the bottom of this page.
 
 You need to create a Colab notebook starting from here [_Project_2_starter notebook_](https://github.com/alimoorreza/CS167-Project-2/blob/main/Project2_starter.ipynb), then add your code and results to document your experiment. Most importantly, you will use text cells in the notebook to explain what you did, interpret the results, and make your recommendations. The written markdown protions must include the following things:
 1. **Problem** [1 point]: State the problem you are trying to solve with this machine learning experiment. Include a description of the data, and what you're trying to predict. What are the possible uses for this kind of machine learning model? Can this type of model be used for fine-grain categorization of any other domains such as biological, industrial, and personal.
