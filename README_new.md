@@ -48,7 +48,7 @@ You need to create a Colab notebook starting from here [_Project_2_starter noteb
 - **VGGNet**
 - **ResNet**
 
-📉 📊 📈 💹 You also should include at least **3 visualizations (graphs)** of tuning parameters.
+📉 📊 📈 💹 You also should include at least **3 visualizations (graphs)** of tuning parameters eg, _loss curves_, _accuracy curves_, _confusion matrices_.
 
 ## Extra Credit ✨
 You will have an opportunity to earn extra credit on this project, up to 2 points. 
@@ -57,8 +57,9 @@ You will have an opportunity to earn extra credit on this project, up to 2 point
 
 # Rubric and Grading
 Project #2 will be graded using the following rubric. I strongly suggest evaluating your project using this rubric before turning it in.
+It consists of two criteria: 1) Description/Writing (12 points), and 2) Code (7 points). The details of the rubrics are as follows:
 
-| **Description/Writing**  |**I think I deserve:**   |**Actual Grade**|**Notes** |
+| **Description/Writing**          |**I think I deserve:**   |**Actual Grade**|**Notes** |
 | :------------------------------- | -------: | ----: |:---- |
 | 1: Problem                       |        /1|       /1|    |
 | 2: Explore the Data              |        /5|       /5|    | 
@@ -66,17 +67,17 @@ Project #2 will be graded using the following rubric. I strongly suggest evaluat
 | 4: Metrics                       |        /1|       /1|    | 
 | 5: Model Planning and Execution  |        /1|       /1|    |
 | 6: Bumps in the Road.            |        /1|       /1|    |
-| 7: Results                       |        /1|       /1|    | 
+| 7: Results                       |        /3|       /3|    | 
 | 8: Discussion/Conclusion.        |        /1|       /1|    |
 | <b>Total                         |       /12 |     /12 </b>   |
 
-| **Code**  |**I think I deserve:**|**Actual Grade**    |**Notes** |
+| **Code**                         |**I think I deserve:**|**Actual Grade**    |**Notes** |
 | :------------------------------- | -------: |-------: | :----    |
 | 1: AlexNet                       |        /1|        /1|         |
 | 2: VGGNet                        |        /1|        /1|         | 
 | 3: ResNet                        |        /1|        /1|         |
 | 4: 3 Visualizations              |        /3|        /3|         | 
-| <b>Total                         |        /7 |       /7|</b>     |
+| <b>Total                         |        /6 |       /6|</b>     |
 
 | **Extra Credit**                                         |**I think I deserve:**|**Actual Grade**     |**Notes** |
 | :-------------------------------                         | -------:             | ----:               |:----     |
@@ -86,5 +87,5 @@ Project #2 will be graded using the following rubric. I strongly suggest evaluat
 
 | **Written Portion** 📝 | **Code Portion** 🖥️ | **Extra Credit** ✨  |**Total** ➕ |**Notes** 🗒️|
 | ---------: | -------------------: | ------------: |-------------: |---------- |
-|       /12  |                  /8 |           /0 |         /20|           |
+|       /14  |                  /6 |           /0 |         /20|           |
 
