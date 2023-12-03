@@ -69,7 +69,7 @@ It consists of two criteria: 1) Description/Writing (12 points), and 2) Code (7 
 | 6: Bumps in the Road.            |        /1|       /1|    |
 | 7: Results                       |        /3|       /3|    | 
 | 8: Discussion/Conclusion.        |        /1|       /1|    |
-| <b>Total                         |       /12 |     /12 </b>   |
+| <b>Total                         |       /14 |     /14 </b>   |
 
 | **Code**                         |**I think I deserve:**|**Actual Grade**    |**Notes** |
 | :------------------------------- | -------: |-------: | :----    |
