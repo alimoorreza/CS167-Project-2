@@ -33,14 +33,17 @@ You need to create a Colab notebook starting from here [_Project_2_starter noteb
 5.  **Model Planning and Execution** [1 point]: Identify which learning algorithms you will try and which important parameters you will tune for each one. [Hint: you can find it from previous notebooks, such as [Day24: CNN finetuning](https://github.com/alimoorreza/CS167-notes/blob/main/Day24_CNN_finetuning.ipynb).]
 6.  **Bumps in the Road** [1 point]: What challenges did you encounter? How did you overcome these challenges? Did you have to adapt your strategy to account for these challenges? Why or why not?
 7.  **Results** [3 point]: After you conduct your learning experiment, summarize the results you got. Include visualizations as appropriate. More explicitly, you should fill in the following table:
+
 | **Model**                        |**Best epoch** |**Best performance** |**Best optimizer** 
 | :------------------------------- | ------------: | ------------: | ------------: |
 | 1: AlexNet                       |               |               |               |
 | 2: VGGNet                        |               |               |               |
 | 3: ResNet                        |               |               |               |
-9.  **Conclusions**: What insights/recommendations do you have? What did you find that was interesting? Which model was your best model? Why do you think models are giving excellent results from the first epoch? Do you need too many epochs to find your best? Why or why not? In general, I want a discussion of your experiment, the results, and what they mean.
 
-### Your Experiments Should Demonstrate the following well-established and effective convolutional neural networks (CNNs):
+8.  **Conclusions**: What insights/recommendations do you have? What did you find that was interesting? Which model was your best model? Why do you think models are giving excellent results from the first epoch? Do you need too many epochs to find your best? Why or why not? In general, I want a discussion of your experiment, the results, and what they mean.
+
+
+### Your Experiments should demonstrate the following well-established and effective convolutional neural networks (CNNs):
 - **AlexNet**
 - **VGGNet**
 - **ResNet**
