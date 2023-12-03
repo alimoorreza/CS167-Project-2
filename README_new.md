@@ -1,13 +1,15 @@
 # CS 167 Project 2: 
-Text classification with SVMs, PCA, Perceptrons, MLPs, and RNNs
+
 
 ## Learning Objectives: 📝
-For this project, you will use the scikit-learn library to conduct a machine learning experiment, and your write-up will ask you to explain what you did and interpret the results. This directly addresses two of the course learning objectives stated in the syllabus:
+For this project, you will be fine-tuning pretrained convolutional neural networks (CNNs) for fine-grained categorization of bird species. As a machine learning tool, you will be using the PyTorch and sklearn libraries to conduct a machine learning experiment, and your write-up will ask you to explain what you did and interpret the results. This directly addresses two of the course learning objectives stated in the syllabus:
 - Students will be able to create software which utilizes machine learning programming libraries in order to conduct machine-learning-based data analysis.
 - Students will be able to develop and conduct machine-learning-based data analysis experiments, and they will be able to interpret and explain the results.
 
 ## Project Description: 🎥 🍿
-For this project, we will be using the International Movie Database (IMDB)'s dataset for text classification. This dataset can be found at: http://ai.stanford.edu/~amaas/data/sentiment/, but it also available via Tensorflow's Datasets. I will provide code that shows you how to download the dataset using Tensorflow. You will be using the text from movie reviews to predict what the sentiment of the movie review was--if it was a positive review [1] or a negative review [0]. 
+For this project, you should use this [_Bird Species dataset_](https://analytics.drake.edu/~reza/teaching/cs167_fall23/dataset/bird_species_v1.zip). This dataset can be found on Blackboard for CS167. While in class, we focused on basic-level categorization, such as binary classification of dogs vs. cats or multi-class classification of bikes, cats, dogs, and persons. In this project, our interest lies in a more fine-grained visual categorization (FGVC) of biological domains. This field has a well-studied taxonomy and offers valuable ecological applications.
+
+You will be using the given _Bird Species dataset_ to predict the specific species of bird.
 
 ## Project Expectations: ☑️
 **New**: At the very top of your notebook, I'm asking that in a text cell, you **describe how many points you attempted to get from this project**. Tell me what you think you deserve on this notebook given the rubric at the bottom of this page. 
