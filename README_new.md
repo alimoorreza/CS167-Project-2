@@ -20,7 +20,7 @@ For this project, you will be fine-tuning pretrained convolutional neural networ
 **New**: At the very top of your notebook, I'm asking that in a text cell, you **describe how many points you attempted to get from this project**. Tell me what you think you deserve on this notebook given the rubric at the bottom of this page. 
 
 You need to create a Colab notebook starting from here [_Project_2_starter notebook_](https://github.com/alimoorreza/CS167-Project-2/blob/main/Project2_starter.ipynb), then add your code and results to document your experiment. Most importantly, you will use text cells in the notebook to explain what you did, interpret the results, and make your recommendations. The written markdown protions must include the following things:
-1. **Problem** [1 point]: State the problem you are trying to solve with this machine learning experiment. Include a description of the data, and what you're trying to predict. What are the possible uses for this kind of machine learning model?
+1. **Problem** [1 point]: State the problem you are trying to solve with this machine learning experiment. Include a description of the data, and what you're trying to predict. What are the possible uses for this kind of machine learning model? Can this type of model be used for fine-grain categorization of any other domains such as biological, industrial, and personal.
 2. **Explore the Data** [5 points]: Find the values for the following metrics: 
     - __Total number of samples__: total number of examples you have in the dataset
     - __Total number of training samples__: total number of examples you have in the training split of the dataset
@@ -28,12 +28,17 @@ You need to create a Colab notebook starting from here [_Project_2_starter noteb
     - __Number of classes__: total number of categories in the dataset
     - __Dimension of each data sample__: Find the size of a sample image in the dataset (use the function `.shape`. Refer to the  [_Project_2_starter notebook which has sufficient hints_.](https://github.com/alimoorreza/CS167-Project-2/blob/main/Project2_starter.ipynb)).
     
-3.  **Data Preparation** [1 point]: Explain your data preparation. What did you have to do to get your data in shape for your experiments - word embeddings, stop words, vectorization, tokeniztion, etc. 
+3.  **Data Preparation** [1 point]: Explain your data preparation. What steps did you have to take to prepare your data for experiments, such as normalization, etc.? Which PyTorch function is responsible for performing the normalization? Just mention the name.
 4.  **Metrics** [1 point]: What metrics will you use to evaluate your model? Why are these metrics the best for your model? (Hint, this should be more than 'accuracy').
-5.  **Model Planning and Execution** [1 point]: Identify which learning algorithms you will try and which important parameters you will tune for each one. 
+5.  **Model Planning and Execution** [1 point]: Identify which learning algorithms you will try and which important parameters you will tune for each one. [Hint: you can find it from previous notebooks, such as [Day24: CNN finetuning](https://github.com/alimoorreza/CS167-notes/blob/main/Day24_CNN_finetuning.ipynb).]
 6.  **Bumps in the Road** [1 point]: What challenges did you encounter? How did you overcome these challenges? Did you have to adapt your strategy to account for these challenges? Why or why not?
-7.  **Results** [1 point]: After you conduct your learning experiment, summarize the results you got. Include visualizations as appropriate. 
-8.  **Conclusions**: What insights/recommendations do you have? What did you find that was interesting? Which model was your best model, which models didn't work well? Why do you think this is? In general, I want a discussion of your experiment, the results, and what they mean.
+7.  **Results** [3 point]: After you conduct your learning experiment, summarize the results you got. Include visualizations as appropriate. More explicitly, you should fill in the following table:
+| **Model**                        |**Best epoch** |**Best performance** |**Best optimizer** 
+| :------------------------------- | ------------: | ------------: | ------------: |
+| 1: AlexNet                       |               |               |               |
+| 2: VGGNet                        |               |               |               |
+| 3: ResNet                        |               |               |               |
+9.  **Conclusions**: What insights/recommendations do you have? What did you find that was interesting? Which model was your best model? Why do you think models are giving excellent results from the first epoch? Do you need too many epochs to find your best? Why or why not? In general, I want a discussion of your experiment, the results, and what they mean.
 
 ### Your Experiments Should Demonstrate the following well-established and effective convolutional neural networks (CNNs):
 - **AlexNet**
@@ -43,7 +48,9 @@ You need to create a Colab notebook starting from here [_Project_2_starter noteb
 📉 📊 📈 💹 You also should include at least **3 visualizations (graphs)** of tuning parameters.
 
 ## Extra Credit ✨
-As promised, you will have an opportunity to earn extra credit on this project. You will be able to earn up to 2 points of extra credit by using the IMDB database to build a **word-level** language model that is able to generate text (much like we did in [Day 23's Notes](https://github.com/merriekay/CS167Code/blob/main/Day23Notes_RNNs4NLP.ipynb). Build your model, train it, evaluate it, and then demonstrate that you are able to use it to generate new movie reviews. 
+You will have an opportunity to earn extra credit on this project, up to 2 points. 
+- First, you need to save the best model for a specific epoch for each of the three models (_AlexNet, VGGNet, and ResNet_) separately. (Hint: we did save a trained model with _.pth extension_ in [Day 25's Notes](https://github.com/alimoorreza/CS167-notes/blob/main/Day25_Recurrent_Neural_Network_RNN.ipynb)).
+- Secondly, you need to present the confusion matrix on the test split utilizing the best-performing model. To be precise, there will be three confusion matrices, each corresponding to the best-performing model from _AlexNet, VGGNet, and ResNet_.
 
 # Rubric and Grading
 Project #2 will be graded using the following rubric. I strongly suggest evaluating your project using this rubric before turning it in.
