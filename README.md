@@ -40,7 +40,7 @@ You need to create a Colab notebook starting from here [_Project_2_starter noteb
 | 2: VGGNet                        |               |               |               |
 | 3: ResNet                        |               |               |               |
 
-8.  **Conclusions**: What insights/recommendations do you have? What did you find that was interesting? Which model was your best model? Why do you think models are giving excellent results from the first epoch? Do you need too many epochs to find your best? Why or why not? In general, I want a discussion of your experiment, the results, and what they mean.
+8.  **Conclusions** [1 point]: What insights/recommendations do you have? What did you find that was interesting? Which model was your best model? Why do you think models are giving excellent results from the first epoch? Do you need too many epochs to find your best? Why or why not? In general, I want a discussion of your experiment, the results, and what they mean.
 
 
 ### Your Experiments should demonstrate the following well-established and effective convolutional neural networks (CNNs):
