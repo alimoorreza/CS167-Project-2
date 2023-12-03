@@ -2,7 +2,7 @@
 
 ## Project Description: 🎥 🍿
 For this project, you should use this [_Bird Species dataset_](https://analytics.drake.edu/~reza/teaching/cs167_fall23/dataset/bird_species_v1.zip). This dataset can also be found on Blackboard for CS167. While in class, we focused on basic-level categorization, such as binary classification of dogs vs. cats or multi-class classification of bikes, cats, dogs, and persons. In this project, our interest lies in a more __fine-grained visual categorization (FGVC)__ of a biological domain ie, _birds_. This field has a well-studied taxonomy and offers valuable ecological applications. You should use the provided Bird Species dataset to train a deep neural network model, enabling it to predict the specific species of a bird when provided with any future image. Imagine how cool it would be if you could deploy this model to an iPhone or an Android app, allowing people worldwide to use it while hiking or exploring the Amazon rainforest.
-<div class="center-image">
+<div style="text-align: center;">
 <img src="bird_species_thumbnail.png" alt="Bird species for fine-grained categorization" width=500/>
 </div>
 
