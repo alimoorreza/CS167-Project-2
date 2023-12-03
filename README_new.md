@@ -7,9 +7,10 @@ For this project, you will be fine-tuning pretrained convolutional neural networ
 - Students will be able to develop and conduct machine-learning-based data analysis experiments, and they will be able to interpret and explain the results.
 
 ## Project Description: 🎥 🍿
-For this project, you should use this [_Bird Species dataset_](https://analytics.drake.edu/~reza/teaching/cs167_fall23/dataset/bird_species_v1.zip). This dataset can be found on Blackboard for CS167. While in class, we focused on basic-level categorization, such as binary classification of dogs vs. cats or multi-class classification of bikes, cats, dogs, and persons. In this project, our interest lies in a more fine-grained visual categorization (FGVC) of biological domains. This field has a well-studied taxonomy and offers valuable ecological applications.
-
-You will be using the given _Bird Species dataset_ to predict the specific species of bird.
+For this project, you should use this [_Bird Species dataset_](https://analytics.drake.edu/~reza/teaching/cs167_fall23/dataset/bird_species_v1.zip). This dataset can also be found on Blackboard for CS167. While in class, we focused on basic-level categorization, such as binary classification of dogs vs. cats or multi-class classification of bikes, cats, dogs, and persons. In this project, our interest lies in a more fine-grained visual categorization (FGVC) of a biological domain ie, _birds_. This field has a well-studied taxonomy and offers valuable ecological applications. You will be using the given _Bird Species dataset_ to learn a deep neural network model so that it can predict the specific species of a bird when given any future image. Imagine how cool it would be if you can deploy this model to an iPhone or an Android app that people around the world can use while hiking or exploring amazon rainforest.
+<div>
+<img src="bird_species_thumbnail.png" width=500/>
+</div>
 
 ## Project Expectations: ☑️
 **New**: At the very top of your notebook, I'm asking that in a text cell, you **describe how many points you attempted to get from this project**. Tell me what you think you deserve on this notebook given the rubric at the bottom of this page. 
