@@ -7,7 +7,7 @@ For this project, you should use this [_Bird Species dataset_](https://analytics
 </div>
 
 ## Learning Objectives: 📝
-For this project, you will be fine-tuning pretrained convolutional neural networks (CNNs) for fine-grained categorization of bird species. As a machine learning tool, you will use the PyTorch and scikit-learn libraries to conduct a machine learning experiment, and your write-up will require you to explain what you did and interpret the results. This directly addresses two of the course learning objectives stated in the syllabus:
+For this project, you will be fine-tuning pretrained convolutional neural networks (CNNs) for fine-grained categorization of bird species. As a machine learning tool, you will use the PyTorch and scikit-learn libraries to conduct a machine learning experiment, and your write-up will require you to explain what you did and interpret the results. This directly addresses three of the course learning objectives stated in the syllabus:
 - Students will be able to create software that utilizes machine learning programming libraries for conducting machine-learning-based data analysis.
 - Students will be able to develop and conduct machine-learning-based data analysis experiments, and they will be able to interpret and explain the results.
 - Students will receive hands-on experience with commonly used algorithms (eg, CNNs such as AlexNet, VGGNet, ResNet, optimizers such SGD, ADAM) and software tools within machine learning.
